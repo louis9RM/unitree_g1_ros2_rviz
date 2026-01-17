@@ -1,6 +1,6 @@
 # unitree_g1_ros2_rviz
 
-ROS 2 package for visualizing the Unitree G1 robot in RViz.
+ROS 2 humble package for visualizing the Unitree G1 robot in RViz.
 
 ## Description
 This package contains the URDF description and meshes for the Unitree G1 robot, along with launch files to visualize the model.
