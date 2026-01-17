@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="bipedo">
+
   <link name="pelvis">
     <inertial>
       <origin xyz="0 0 -0.07605" rpy="0 0 0"/>
@@ -16,7 +17,6 @@
       </material>
     </visual>
   </link>
-
 
 <link name="pelvis_contour_link">
     <inertial>
@@ -79,6 +79,7 @@
   </joint>
 
 
+  
   <link name="left_hip_roll_link">
     <inertial>
       <origin xyz="0.029812 -0.001045 -0.087934" rpy="0 0 0"/>
@@ -108,8 +109,8 @@
     <axis xyz="1 0 0"/>
     <limit lower="-0.5236" upper="2.9671" effort="139" velocity="20"/>
   </joint>
-
-
+  
+  
    <link name="left_hip_yaw_link">
     <inertial>
       <origin xyz="-0.057709 -0.010981 -0.15078" rpy="0 0 0"/>
@@ -257,7 +258,9 @@
     <limit lower="-0.2618" upper="0.2618" effort="50" velocity="37"/>
   </joint>
 
-  
+
+
+
     <!-- Left Foot Plane Contact Frames -->
     <link name="left_foot_upper_left"/>
     <link name="left_foot_upper_right"/>
@@ -572,6 +575,7 @@
 
 
 
+
   <!-- Torso -->
   <link name="waist_yaw_link">
     <inertial>
@@ -657,6 +661,7 @@
   </joint>
 
 
+  
 
   <!-- LOGO -->
   <joint name="logo_joint" type="fixed">
@@ -686,7 +691,6 @@
       </geometry>
     </collision>
   </link>
-
 
 
 
@@ -924,8 +928,6 @@
   </joint>
 
 
-
-
   <link name="left_wrist_pitch_link">
     <inertial>
       <origin xyz="0.02299989837 -0.00111685314 -0.00111658096" rpy="0 0 0"/>
@@ -1001,7 +1003,6 @@
       </material>
     </visual>
   </link>
-
 
 
 
@@ -1246,6 +1247,7 @@
         <child link="right_hand_point_contact"/>
         <origin rpy="0 0 0" xyz="0.05 0.0 0.0"/>
     </joint>
+
 
 
 
