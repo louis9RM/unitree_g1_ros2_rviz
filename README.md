@@ -21,3 +21,8 @@ To visualize the robot in RViz:
 ```bash
 ros2 launch unitree_g1_ros2_rviz ros2_unitree_g1.launch.py
 ```
+
+En una nueva terminal:
+```bash
+ros2 run joint_state_publisher_gui joint_state_publisher_gui 
+```
